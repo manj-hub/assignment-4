@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Functional Color Harmonizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Functional Color Harmonizer</h1>
+    <input type="color" id="colorInput" value="#1F8FFF" />
+    <div class="color-display">
+      <div id="baseColor" class="color-box">
+        <p>Base Color</p>
+        <span id="baseHex">#1F8FFF</span>
+      </div>
+      <div id="complementary" class="color-box">
+        <p>Complementary</p>
+        <span id="compHex"></span>
+      </div>
+      <div id="triadic1" class="color-box">
+        <p>Triadic 1</p>
+        <span id="triad1Hex"></span>
+      </div>
+      <div id="triadic2" class="color-box">
+        <p>Triadic 2</p>
+        <span id="triad2Hex"></span>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
